@@ -73,7 +73,7 @@
 
 #navItemsThatHover:hover{
   list-style: none;
-  color: white;
+  color: #9DF8FA;
   margin-right: 5vw;
   font-family: 'Calligraffitti', cursive;
   margin-top: 1.5vh;
@@ -110,6 +110,11 @@
   font-size: xx-large;
   font-weight: bolder;
   border-top: solid #612500;
+}
+
+#navHomeLink:hover{
+  color: #9DF8FA;
+  padding-top: 1vh;
 }
 
 #homeBoxes{
