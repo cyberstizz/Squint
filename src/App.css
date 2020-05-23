@@ -1,3 +1,15 @@
+ /* my colors for this site will be:
+ 
+ extreme blue: #0B5F61
+ near blue: #9DF8FA
+ middle blend: #21ABAD
+ near brown: #612500
+ extreme brown: #AD5621
+ 
+ complimentary color scheme */
+
+ @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +47,85 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#navBar{
+  width: 100%;
+  height: 12vh;
+  top: 0;
+  background-color: #0B5F61;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+}
+
+#navItemsThatHover{
+  list-style: none;
+  color: white;
+  margin-right: 5vw;
+  font-family: 'Calligraffitti', cursive;
+  margin-top: 1.5vh;
+  padding-top: 1vh;
+  padding-bottom: 1.5vh;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#navItemsThatHover:hover{
+  list-style: none;
+  color: white;
+  margin-right: 5vw;
+  font-family: 'Calligraffitti', cursive;
+  margin-top: 1.5vh;
+  padding-top: 1vh;
+  padding-bottom: 1.5vh;
+  font-size: xx-large;
+  font-weight: bolder;
+  border-top: solid #612500;
+}
+
+#navItems{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5vw;
+}
+
+#navList{
+  display: flex;
+  flex-direction: row;
+}
+
+#logoDiv{
+  color: #AD5621;
+}
+
+#navHomeLink{
+  list-style: none;
+  color: white;
+  margin-right: 5vw;
+  font-family: 'Calligraffitti', cursive;
+  margin-top: 1.5vh;
+  padding-top: 1vh;
+  padding-bottom: 1.5vh;
+  font-size: xx-large;
+  font-weight: bolder;
+  border-top: solid #612500;
+}
+
+#homeBoxes{
+  border: solid black 2px;
+  height: 80vh;
+  width: 80vw;
+  margin-left: 10vw;
+  background-color: #282c34;
+}
+
+#pageBackground{
+  margin-top: 12vh;
+  z-index: -5;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  transform: skew(-10deg);
 }
