@@ -121,11 +121,11 @@
 }
 
 #pageBackground{
-  margin-top: 12vh;
+  margin-top: -95vh;
   z-index: -5;
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 200vh;
+  width: 140%;
   background-color: green;
-  transform: skew(-10deg);
+  transform: skew(-70deg);
 }
