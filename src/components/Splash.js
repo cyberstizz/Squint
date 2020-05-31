@@ -11,7 +11,7 @@ export default function Splash(){
     
     
     return (
-      <React.Fragment>
+      <div id='entireSplash'>
     <div id='splashPic'>
     </div>
   <div id='splashElements'>
@@ -29,13 +29,17 @@ export default function Splash(){
     {
     overlay: {
       backgroundColor: '#0D4354',
-      height: '100vh'
+      height: '100vh',
+      zIndex: '6',
+      position: 'fixed'
     },
     content: {
       color: 'blue',
       backgroundColor: '#9DF8FA',
       width: '60vw',
-      margin: '0 auto'
+      margin: '0 auto',
+      zIndex: '6',
+      position: 'fixed'
     }
   }
   }
@@ -65,13 +69,17 @@ export default function Splash(){
     {
     overlay: {
       backgroundColor: '#9DF8FA',
-      height: '100vh'
+      height: '100vh',
+      zIndex: '6',
+      position: 'fixed'
     },
     content: {
       color: 'blue',
       backgroundColor: '#0D4354',
       width: '60vw',
-      margin: '0 auto'
+      margin: '0 auto',
+      zIndex: '6',
+      position: 'fixed'
     }
   }
   }
@@ -95,7 +103,7 @@ export default function Splash(){
 
 
 
-  </React.Fragment>
+  </div>
   );
     }
 

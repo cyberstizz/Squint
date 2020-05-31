@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../logo.svg';
 import '../App.css';
+import Splash from './Splash';
 
 export default class Home extends React.Component{
   
@@ -8,6 +9,8 @@ export default class Home extends React.Component{
 
   
     return (
+       <React.Fragment>
+          <Splash />
     <div >
      <div id="navBar">
         <div id='navLogo'></div>
@@ -59,6 +62,7 @@ export default class Home extends React.Component{
 
      </div>
     </div>
+    </React.Fragment>
   );
     }
 }

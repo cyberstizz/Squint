@@ -652,3 +652,8 @@ margin-right: -.18vw;
   margin-top: 3vh;
   border-radius: 80px;
 }
+
+#entireSplash{
+  z-index: 5;
+  position: fixed;
+}
