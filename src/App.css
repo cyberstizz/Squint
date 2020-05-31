@@ -1,16 +1,17 @@
  /* my colors for this site will be:
  
- extreme blue: #0B5F61
+ extreme blue: #0D4354
  near blue: #9DF8FA
- middle blend: #21ABAD
+ middle blend: #3A444A
  near brown: #612500
- extreme brown: #AD5621
+ extreme brown: #5C4E17
  
  complimentary color scheme */
 
  @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
-
-.App {
+ @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+ .App {
   text-align: center;
 }
 
@@ -50,87 +51,421 @@
 }
 
 #navBar{
-  width: 100%;
-  height: 12vh;
-  top: 0;
-  background-color: #0B5F61;
+  width: 13vw;
+  height: 100vh;
+  left: 0;
+  background-color: #FAFCFC;
+  display: inline-flex;
+  flex-direction: column;
+  position: fixed;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-shadow: aliceblue;
+  margin-left: .5vw;
+  border: solid 1px grey;
+
+}
+
+#dashbody{
+  display: inline-flex;
+  flex-direction: column;
+  background-color: #3A444A;
+  height: 100vh;
+  width: 80%;
+  z-index: 10;
+}
+
+#profileDiv{
+  width: 22vw;
+  height: 100vh;
+  right: 0;
+  background-color: #FAFCFC;
+  display: inline-flex;
+  flex-direction: column;
+  position: fixed;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-right: .5vw;
+  border: solid 1px grey;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+
+#logoDiv{
+  background-image: url('./images/squintLogo.png');
+}
+
+
+
+
+
+
+#splashPic{
+  background-image: url('./images/squintSplash-mono.jpg');
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  position: absolute;
+  z-index: -10;
+}
+
+#splashElements{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: #9DF8FA;
+  opacity: .85;
+}
+
+#splashLogo{
+  height: 35vh;
+  width: 35vw;
+  background-image: url('./images/squintLogo.png');
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 7vh;
+}
+
+#signIn{
+  border: 2px solid #5C4E17;
+  width: 12vw;
+  height: 7vh;
+  background-color: #0D4354;
+  margin-left: 4vh;
+  color: #9DF8FA;
+  margin-top: 10vh;
+  font-family: 'Chelsea Market', cursive;
+  font-size: x-large;
+  overflow-y: hidden;
+}
+/*
+  border: 2px solid #0D4354;
+  background-color: #9DF8FA;
+  color: #5C4E17;
+*/
+
+
+
+
+
+#signIn:hover{
+  border: 2px solid #0D4354;
+  width: 12vw;
+  height: 7vh;
+  background-color: #5C4E17;
+  margin-left: 4vh;
+  color: #9DF8FA;
+  margin-top: 10vh;
+  font-family: 'Chelsea Market', cursive;
+  font-size: x-large;
+  overflow-y: hidden;
+  opacity: .9;
+}
+
+#textField{
+  font-family: 'Chelsea Market', cursive;
+  margin-bottom: 5vh;
+  color: #0D4354;
+  font-size: xx-large;
+  font-weight: bolder;
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+
+
+
+#lineDiv{
+  border-top: solid 3px #5C4E17;
+  width: 12vw;
+  margin: 0 auto;
+  margin-top: 2vh;
+}
+
+#signUp{
+  border: 2px solid #5C4E17;
+  width: 12vw;
+  height: 7vh;
+  background-color: #9DF8FA;
+  margin-left: 4vh;
+  color: #0D4354;
+  margin-top: 10vh;
+  font-family: 'Chelsea Market', cursive;
+  font-size: x-large;
+  overflow: hidden;
+}
+
+#signUp:hover{
+  border: 2px solid #0D4354;
+  width: 12vw;
+  height: 7vh;
+  background-color: #5C4E17;
+  margin-left: 4vh;
+  color: #9DF8FA;
+  margin-top: 10vh;
+  font-family: 'Chelsea Market', cursive;
+  font-size: x-large;
+  overflow-y: hidden;
+  opacity: .9;
+}
+
+#modalTopButtons{
   display: flex;
   flex-direction: row;
-  position: fixed;
+  width: 45vw;
+  height: 10vh;
+  margin: 0 auto;
 }
-
-#navItemsThatHover{
-  list-style: none;
-  color: white;
-  margin-right: 5vw;
-  font-family: 'Calligraffitti', cursive;
-  margin-top: 1.5vh;
-  padding-top: 1vh;
-  padding-bottom: 1.5vh;
-  font-size: xx-large;
-  font-weight: bolder;
-}
-
-#navItemsThatHover:hover{
-  list-style: none;
+#modalSignup{
+  width: 50%;
+  background-color: #0D4354;
   color: #9DF8FA;
-  margin-right: 5vw;
-  font-family: 'Calligraffitti', cursive;
-  margin-top: 1.5vh;
-  padding-top: 1vh;
-  padding-bottom: 1.5vh;
+  font-family: 'Chelsea Market', cursive;
+  font-size: larger;
+  margin-top: 2vh;
+}
+
+#modalText{
+  margin-top: 8vh;
+  text-align: center;
+  color: #5C4E17;
+  font-family: 'Indie Flower', cursive;  font-size: xx-large;
+  width: 60vw;
+}
+
+#modalLineDiv{
+  width: 20vw;
+  border-top: 4px solid #0D4354;
+  margin: 0 auto;
+}
+
+#userName{
+border: 2px solid #5C4E17;
+width: 40vw;
+margin: 0 auto;
+margin-top: 5vh;
+margin-left: 9.8vw;
+height: 4vh;
+font-family: 'Chelsea Market', cursive;
+font-size: larger;
+color: #0D4354;
+background-color: #9DF8FA;
+}
+
+#email{
+  border: 2px solid #0D4354;
+width: 40vw;
+margin: 0 auto;
+margin-top: 5vh;
+margin-left: 9.8vw;
+font-size: larger;
+height: 4vh;
+font-family: 'Chelsea Market', cursive;
+color: #0D4354;
+background-color: #9DF8FA;
+}
+
+#password{
+  border: 2px solid #0D4354;
+width: 40vw;
+margin: 0 auto;
+margin-top: 5vh;
+margin-left: 9.8vw;
+height: 4vh;
+font-family: 'Chelsea Market', cursive;
+font-size: larger;
+color: #0D4354;
+background-color: #9DF8FA;
+}
+
+#modalLogin{
+  width: 50%;
+  background-color: #3A444A;
+  color: #9DF8FA;
+  font-family: 'Chelsea Market', cursive;
+  font-size: larger;
+  margin-top: 2vh; 
+}
+
+#modalSubmit{
+  width: 25vw;
+  margin-top: 4vh; 
+  margin-left: 17vw;
+  background-color: #0D4354;
+  height: 7vh;
+  font-family: 'Indie Flower', cursive;  font-size: xx-large;
+  color: #9DF8FA;
   font-size: xx-large;
   font-weight: bolder;
-  border-top: solid #612500;
+}
+
+#modalSubmit:hover{
+
+}
+
+#signOutmodalLineDiv{
+  width: 20vw;
+  border-top: 4px solid #9DF8FA;
+  margin: 0 auto; 
 }
 
 #navItems{
+  height: 50vh;
+  width: 12.9vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7.5vh;
+}
+
+#topDashText{
+  height: 15vh;
+  width: 10vw;
+}
+
+#yourFocus{
+  margin: 0 auto;
+  margin-left: 10.5vw;
+  width: 50vw;
+  height: 22vh;
+  background-color: #0D4354;
+  border-radius: 20px;
+  opacity: 75%;
+  border: 1px solid#FAFCFC;
+}
+
+
+#logistics{
+  height: 44vh;
+  width: 65vw;
   display: flex;
   flex-direction: row;
-  margin-left: 5vw;
+  margin: 0 auto;
+  margin-top: 6vh;
+  margin-left: 10.5vw;
 }
 
-#navList{
+#calendarDiv{
+  height: 90%;
+  width: 37%;
+  background-color: #FAFCFC;
+  opacity: 100%;
+  margin-right: 1vw;
+  border-radius: 10px;
+  border: solid 1px grey;
+}
+
+#graphDiv{
+  height: 90%;
+  width: 37%;
+  background-color: #FAFCFC;
+  opacity: 100%;
+  margin-left: 1vw;
+  border-radius: 10px;
+  border: solid 1px grey;
+}
+
+#bottomButtons{
+  width: 50vw;
+  height: 15vh;
   display: flex;
   flex-direction: row;
+  margin-left: 9.8vw;
+  margin-bottom: 2vh;
+  margin-top: -2vh;
+  padding-top: 2px;
 }
 
-#logoDiv{
-  color: #AD5621;
+#goalListButton{
+width: 32%;
+height: 65%;
+background-color: black;
+align-self: center;
+margin-left: 1.5vw;
+border-radius: 13px;
 }
 
-#navHomeLink{
-  list-style: none;
-  color: white;
-  margin-right: 5vw;
-  font-family: 'Calligraffitti', cursive;
-  margin-top: 1.5vh;
-  padding-top: 1vh;
-  padding-bottom: 1.5vh;
-  font-size: xx-large;
-  font-weight: bolder;
-  border-top: solid #612500;
+#affirmationButton{
+  width: 32%;
+  height: 65%;
+  background-color: black;
+  align-self: center;
+  margin-left: 1.5vw;
+  border-radius: 13px;
 }
 
-#navHomeLink:hover{
-  color: #9DF8FA;
-  padding-top: 1vh;
+#scheduleButton{
+  width: 32%;
+  height: 65%;
+  background-color: black;
+  align-self: center;
+  margin-left: 1.5vw;
+  border-radius: 13px;
 }
 
-#homeBoxes{
-  border: solid black 2px;
-  height: 80vh;
-  width: 80vw;
-  margin-left: 10vw;
-  background-color: #282c34;
+#navLogo{
+  margin-left: 2vw;
+  background-image: url('./images/squintLogo.png');
+  background-position: 110%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20vh;
+  width: 9vw;
 }
 
-#pageBackground{
-  margin-top: -95vh;
-  z-index: -5;
-  position: absolute;
-  height: 200vh;
-  width: 140%;
-  background-color: green;
-  transform: skew(-70deg);
+#Home{
+background-image: url('./images/navHome.png');
+background-position: 100%;
+ background-size: 100%;
+ height: 4vh;
+ width: 7vw;
+}
+
+#Goals{
+  background-image: url('./images/navGoals.png');
+ background-position: 100%;
+ background-size: 100%;
+ height: 4vh;
+ width: 7vw;
+ margin-top: 4vh;
+}
+
+#Booklist{
+  background-image: url('./images/navBooks.png');
+  background-position: 100%;
+ background-size: 100%;
+ width: 7vw;
+
+ height: 4vh;
+ margin-top: 4vh;
+
+}
+
+#Affirmation{
+ background-image: url('./images/navAffirmation.png');
+ background-position: 100%;
+ background-size: 100%;
+ height: 5vh;
+}
+
+#Journal{
+  background-image: url('./images/navJournal.png');
+  background-position: 100%;
+  background-size: 100%;
+  height: 5vh;
+}
+
+#VisionBoard{
+  background-image: url('./images/navHome.png');
+ background-position: 100%;
+ background-size: 100%;
+ height: 5vh;
 }

@@ -8,34 +8,31 @@ export default class Home extends React.Component{
 
   
     return (
-    <div className="App">
+    <div >
      <div id="navBar">
-         <div id="logoDiv">Logo</div>
-         <div id="navItems">
-             <ul id="navList">
-                <div id="navHomeLink"><li>Home</li></div>
-                 <li id="navItemsThatHover">Goals</li>
-                 <li id="navItemsThatHover">Affirmation</li>
-                 <li id="navItemsThatHover">Journal</li>
-                 <li id="navItemsThatHover">Meditate</li>
-                 <li id="navItemsThatHover">VisionBoard</li>
-             </ul>
-         </div>
-     </div>
-     <div id="pageBackground"></div>
-     <br/>
-     <br/>
-     <br/>
-     <br/>
-     <br/>
-     <br/>
-     <br/>
-     <br/>
-    
+        <div id='navLogo'></div>
+        <div id='navItems'>
+        <div id='Home'></div> <div id='Goals'></div> <div id='Booklist'></div>
 
-     <div id="homeBoxes">efwgaewa</div>
-     <div id="homeBoxes">ethesj5ej</div>
-     <div id="homeBoxes">b5ny5 w</div>
+        </div>
+     </div>
+     <div id='dashbody'>
+       <div id='topDashText'></div>
+       <div id='yourFocus'></div>
+       <div id='logistics'>
+          <div id='calendarDiv'></div>
+          <div id='graphDiv'></div>
+       </div>
+
+
+      <div id='bottomButtons'>
+         <div id='goalListButton'></div>
+         <div id='affirmationButton'></div>
+         <div id='scheduleButton'></div>
+
+    </div>
+     </div>
+     <div id='profileDiv'></div>
     </div>
   );
     }
