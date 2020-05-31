@@ -11,10 +11,29 @@ export default class Home extends React.Component{
     <div >
      <div id="navBar">
         <div id='navLogo'></div>
+        
+        
         <div id='navItems'>
-        <div id='Home'></div> <div id='Goals'></div> <div id='Booklist'></div>
+          
+            <div id='homeNavSpace'>
+               <div id='HomeIcon'></div> <div id='Home'></div> 
+            </div>
+
+            <div id='goalNavSpace'>
+               <div id='GoalsIcon'></div><div id='Goals'></div> 
+            </div>
+
+            <div id='bookNavSpace'>
+               <div id='BooklistIcon'></div><div id='Booklist'></div>
+            </div>
+
+            <div id='affirmationNavSpace'>
+               <div id='affirmationIcon'></div><div id='affirmation'></div>
+            </div>
 
         </div>
+     
+     
      </div>
      <div id='dashbody'>
        <div id='topDashText'></div>
