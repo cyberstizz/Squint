@@ -441,6 +441,16 @@ background-position: 100%;
 
 }
 
+#GoalsIcon{
+  background-image: url('./images/goalsIcon.png');
+  background-repeat: no-repeat;
+  background-position: 100%;
+   background-size: contain;
+   height: 3.5vh;
+   width: 5vw; 
+   margin-right: 2.5vw;
+}
+
 #Goals{
   background-image: url('./images/847c6ea1-2e35-41c5-88ec-4a0a446e89b0_200x200.png');
   background-position: 100%;
@@ -450,22 +460,42 @@ background-position: 100%;
    margin-right: 2vw;
 }
 
-#Booklist{
-  background-image: url('./images/navBooks.png');
+#BooklistIcon{
+  background-image: url('./images/booksIcon.png');
+  background-repeat: no-repeat;
   background-position: 100%;
- background-size: 100%;
- width: 7vw;
-
- height: 4vh;
- margin-top: 4vh;
-
+   background-size: contain;
+   height: 3.5vh;
+   width: 5vw; 
+   margin-right: 2.5vw;
 }
 
-#Affirmation{
- background-image: url('./images/navAffirmation.png');
- background-position: 100%;
- background-size: 100%;
- height: 5vh;
+#Booklist{
+   background-image: url('./images/booksGrey.png');
+   background-position: 100%;
+   background-size: 100%;
+   height: 4vh;
+   width: 7vw;
+   margin-right: 2vw;
+}
+
+#affirmationIcon{
+  background-image: url('./images/affirmation\ icon.png');
+  background-repeat: no-repeat;
+  background-position: 100%;
+   background-size: contain;
+   height: 3.5vh;
+   width: 3vw; 
+   margin-left: .35vw;
+}
+
+#affirmation{
+ background-image: url('./images/affirmationGrey.png');
+   background-position: 100%;
+   background-size: 100%;
+   height: 3.5vh;
+   width: 7vw;
+   margin-left: 1vw; 
 }
 
 #Journal{
@@ -490,14 +520,17 @@ background-position: 100%;
 #goalNavSpace{
   display: flex;
   flex-direction: row;
+  margin-top: 5vh;
 }
 
 #bookNavSpace{
   display: flex;
   flex-direction: row;
+  margin-top: 5vh;
 }
 
 #affirmationNavSpace{
   display: flex;
   flex-direction: row;
+  margin-top: 5vh;
 }
