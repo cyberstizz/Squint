@@ -421,21 +421,33 @@ border-radius: 13px;
   width: 9vw;
 }
 
+#HomeIcon{
+  background-image: url('./images/home\ icon.png');
+  background-repeat: no-repeat;
+  background-position: 100%;
+   background-size: contain;
+   height: 3.5vh;
+   width: 5vw; 
+   margin-right: 2.5vw;
+}
+
 #Home{
-background-image: url('./images/navHome.png');
+background-image: url('./images/HomeNavHover.png');
 background-position: 100%;
  background-size: 100%;
  height: 4vh;
  width: 7vw;
+ margin-right: 2vw;
+
 }
 
 #Goals{
-  background-image: url('./images/navGoals.png');
- background-position: 100%;
- background-size: 100%;
- height: 4vh;
- width: 7vw;
- margin-top: 4vh;
+  background-image: url('./images/847c6ea1-2e35-41c5-88ec-4a0a446e89b0_200x200.png');
+  background-position: 100%;
+   background-size: 100%;
+   height: 4vh;
+   width: 7vw;
+   margin-right: 2vw;
 }
 
 #Booklist{
@@ -468,4 +480,24 @@ background-position: 100%;
  background-position: 100%;
  background-size: 100%;
  height: 5vh;
+}
+
+#homeNavSpace{
+  display: flex;
+  flex-direction: row;
+}
+
+#goalNavSpace{
+  display: flex;
+  flex-direction: row;
+}
+
+#bookNavSpace{
+  display: flex;
+  flex-direction: row;
+}
+
+#affirmationNavSpace{
+  display: flex;
+  flex-direction: row;
 }
