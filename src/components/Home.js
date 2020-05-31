@@ -52,8 +52,11 @@ export default class Home extends React.Component{
     </div>
      </div>
      <div id='profileDiv'>
+        <div id='logOUtDiv'>
+          <div id='logoutDash'></div><div id='logOutDashIcon'></div>
+        </div>
+        <div id='profilePic'></div>
 
-       
      </div>
     </div>
   );

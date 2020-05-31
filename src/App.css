@@ -603,12 +603,52 @@ margin-right: -.18vw;
   display: flex;
   flex-direction: row;
   border-radius: 13px;
-  background-color: #3A444A;
+  background-color: white;
   margin-left: 1.2vw;
-  color: white;
+  color: #3A444A;
   text-align: center;
   letter-spacing: 1px;
   font-size: small;
   justify-content: center;
   margin-top: 3vh;
+  border: solid 2px #3A444A;
+}
+
+#logOUtDiv{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5vh;
+  margin-right: -.18vw;
+}
+
+#logoutDash{
+  background-image: url('./images/greyLogout.png');
+  background-repeat: no-repeat;
+  background-position: 100%;
+   background-size: 100%;
+   height: 5vh;
+   width: 5vw; 
+   margin-left: 3vw;
+   margin-top: 1.4vh;
+}
+
+#logOutDashIcon{
+  background-image: url('./images/logoLightOff.png');
+  background-repeat: no-repeat;
+  background-position: 100%;
+   background-size: contain;
+   height: 6vh;
+   width: 7vw; 
+   margin-left: 3vw;
+   color: grey;
+   padding-bottom: .3em;
+}
+
+#profilePic{
+  width: 10.5vw;
+  height: 20vh;
+  border: solid 2px;
+  margin-left: 6vw;
+  margin-top: 3vh;
+  border-radius: 80px;
 }
