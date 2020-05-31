@@ -32,7 +32,7 @@ export default class Home extends React.Component{
             </div>
 
         </div>
-     
+        <div id='bottomNavButton'><h1>help</h1></div>
      
      </div>
      <div id='dashbody'>
@@ -51,7 +51,10 @@ export default class Home extends React.Component{
 
     </div>
      </div>
-     <div id='profileDiv'></div>
+     <div id='profileDiv'>
+
+       
+     </div>
     </div>
   );
     }
