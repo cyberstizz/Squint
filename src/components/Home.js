@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../logo.svg';
 import '../App.css';
 import Splash from './Splash';
+import firebase from 'firebase';
 
 export default class Home extends React.Component{
   
