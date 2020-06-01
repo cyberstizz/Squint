@@ -261,7 +261,33 @@ color: #0D4354;
 background-color: #9DF8FA;
 }
 
+#userNameTwo{
+  border: 2px solid #5C4E17;
+  width: 40vw;
+  margin: 0 auto;
+  margin-top: 5vh;
+  margin-left: 9.8vw;
+  height: 4vh;
+  font-family: 'Chelsea Market', cursive;
+  font-size: larger;
+  color: #0D4354;
+  background-color: #9DF8FA;
+  }
+
 #email{
+  border: 2px solid #0D4354;
+width: 40vw;
+margin: 0 auto;
+margin-top: 5vh;
+margin-left: 9.8vw;
+font-size: larger;
+height: 4vh;
+font-family: 'Chelsea Market', cursive;
+color: #0D4354;
+background-color: #9DF8FA;
+}
+
+#emailTwo{
   border: 2px solid #0D4354;
 width: 40vw;
 margin: 0 auto;
@@ -287,6 +313,20 @@ color: #0D4354;
 background-color: #9DF8FA;
 }
 
+
+#passwordTwo{
+border: 2px solid #0D4354;
+width: 40vw;
+margin: 0 auto;
+margin-top: 5vh;
+margin-left: 9.8vw;
+height: 4vh;
+font-family: 'Chelsea Market', cursive;
+font-size: larger;
+color: #0D4354;
+background-color: #9DF8FA;
+}
+
 #modalLogin{
   width: 50%;
   background-color: #3A444A;
@@ -297,6 +337,18 @@ background-color: #9DF8FA;
 }
 
 #modalSubmit{
+  width: 25vw;
+  margin-top: 4vh; 
+  margin-left: 17vw;
+  background-color: #0D4354;
+  height: 7vh;
+  font-family: 'Indie Flower', cursive;  font-size: xx-large;
+  color: #9DF8FA;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#modalSubmitTwo{
   width: 25vw;
   margin-top: 4vh; 
   margin-left: 17vw;
