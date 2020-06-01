@@ -93,10 +93,10 @@ export default function Splash(){
       <div id='signOutmodalLineDiv'></div>
     </div>
     <form>
-    <input type='text' id='userName' placeholder='Username&#x2217;'></input>
-    <input type ='text' id='email' placeholder='email&#x2217;'></input>
-    <input type='text' id='password' placeholder='Password&#x2217;'></input>
-    <input type='submit' id='modalSubmit' value='Get started'></input>
+    <input type='text' id='userNameTwo' placeholder='Username&#x2217;'></input>
+    <input type ='text' id='emailTwo' placeholder='email&#x2217;'></input>
+    <input type='text' id='passwordTwo' placeholder='Password&#x2217;'></input>
+    <input type='submit' id='modalSubmitTwo' value='Get started'></input>
     </form>
 
   </Modal>
