@@ -1,6 +1,13 @@
 import React, { useState } from 'react';
 import '../App.css';
 import Modal from 'react-modal';
+import firebase from 'firebase';
+
+
+const firebaseConfig = process.env.REACT_APP_Squint_API_KEY;
+
+firebase.initializeApp(firebaseConfig);
+
 
 Modal.setAppElement('#root');
 
@@ -8,7 +15,14 @@ export default function Splash(){
     const [modalIsOpen, setModalIsOpen] = useState(false)
     const [otherModalIsOpen, setotherModalIsOpen] = useState(false)
 
-    
+    const signIn = (event, user, email, password, profile) => {
+        event.preventDefault();
+
+      const splash = document.getElementById('entireSplash');
+
+      splash.style.display = 'none';
+      setModalIsOpen(false);
+    }
     
     return (
       <div id='entireSplash'>
@@ -52,7 +66,7 @@ export default function Splash(){
       <h2>Make life simple</h2>
       <div id='modalLineDiv'></div>
     </div>
-    <form>
+    <form onSubmit={signIn}>
     <input type='text' id='userName' placeholder='Username&#x2217;'></input>
     <input type ='text' id='email' placeholder='email&#x2217;'></input>
     <input type='text' id='password' placeholder='Password&#x2217;'></input>

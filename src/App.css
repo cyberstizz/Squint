@@ -392,6 +392,22 @@ background-color: #9DF8FA;
   border-radius: 20px;
   opacity: 75%;
   border: 1px solid#FAFCFC;
+  font-family: 'Indie Flower', cursive;  font-size: xx-large;
+  font-family: 'Chelsea Market', cursive;
+
+  color: white;
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  font-weight: bolder;
+  overflow: hidden;
+}
+
+#focusGoal{
+  font-family: 'Indie Flower', cursive;  
+  font-size: xx-large;
+  color: #9DF8FA;
 }
 
 
@@ -437,30 +453,67 @@ background-color: #9DF8FA;
 }
 
 #goalListButton{
-width: 32%;
-height: 65%;
-background-color: black;
-align-self: center;
-margin-left: 1.5vw;
-border-radius: 13px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 32%;
+  height: 65%;
+  background-color: black;
+  color: #5C4E17;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 1.5vw;
+  border-radius: 13px;
+  font-family: 'Indie Flower', cursive;  
+  font-size: x-large;
+  font-weight: bolder;
+  border: solid 1px #5C4E17;
+  overflow: hidden;
 }
 
 #affirmationButton{
+  display: inline-flex;
+  flex-direction: column;
   width: 32%;
   height: 65%;
   background-color: black;
+  color: #5C4E17;
   align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   margin-left: 1.5vw;
   border-radius: 13px;
+  font-family: 'Indie Flower', cursive;  
+  font-size: x-large;
+  font-weight: bolder;
+  border: solid 1px #5C4E17;
+  overflow: hidden;
+}
+
+#affirmationWord{
+  margin: 0 auto;
 }
 
 #scheduleButton{
+  display: inline-flex;
+  flex-direction: column;
   width: 32%;
   height: 65%;
   background-color: black;
+  color: #5C4E17;
   align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   margin-left: 1.5vw;
   border-radius: 13px;
+  font-family: 'Indie Flower', cursive;  
+  font-size: x-large;
+  font-weight: bolder;
+  border: solid 1px #5C4E17;
+  overflow: hidden;
 }
 
 #navLogo{
@@ -708,4 +761,5 @@ margin-right: -.18vw;
 #entireSplash{
   z-index: 5;
   position: fixed;
+  display: visible;
 }

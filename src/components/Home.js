@@ -1,11 +1,9 @@
 import React from 'react';
-\import '../App.css';
+import '../App.css';
 import Splash from './Splash';
 import firebase from 'firebase';
 
-const firebaseConfig = process.env.REACT_APP_Squint_API_KEY
 
-firebase.initializeApp(firebaseConfig);
 
 export default class Home extends React.Component{
   
@@ -44,7 +42,7 @@ export default class Home extends React.Component{
      </div>
      <div id='dashbody'>
        <div id='topDashText'></div>
-       <div id='yourFocus'></div>
+       <div id='yourFocus'> Your next goal : <span id='focusGoal'> this is where your next goal will get displayed.<br/>start by clicking the goals tab to your left</span></div>
        <div id='logistics'>
           <div id='calendarDiv'></div>
           <div id='graphDiv'></div>
@@ -52,9 +50,9 @@ export default class Home extends React.Component{
 
 
       <div id='bottomButtons'>
-         <div id='goalListButton'></div>
-         <div id='affirmationButton'></div>
-         <div id='scheduleButton'></div>
+         <div id='goalListButton'><span id='affirmationWord'>Goals    &#10148;</span></div>
+         <div id='affirmationButton'><span id='affirmationWord'>Affirmation    &#10148;</span></div>
+         <div id='scheduleButton'><span id='affirmationWord'>Books    &#10148;</span></div>
 
     </div>
      </div>
