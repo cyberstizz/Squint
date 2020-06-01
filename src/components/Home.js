@@ -1,8 +1,11 @@
 import React from 'react';
-import logo from '../logo.svg';
-import '../App.css';
+\import '../App.css';
 import Splash from './Splash';
 import firebase from 'firebase';
+
+const firebaseConfig = process.env.REACT_APP_Squint_API_KEY
+
+firebase.initializeApp(firebaseConfig);
 
 export default class Home extends React.Component{
   
