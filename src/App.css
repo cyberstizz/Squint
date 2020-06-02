@@ -394,7 +394,6 @@ background-color: #9DF8FA;
   border: 1px solid#FAFCFC;
   font-family: 'Indie Flower', cursive;  font-size: xx-large;
   font-family: 'Chelsea Market', cursive;
-
   color: white;
   margin-bottom: 3vh;
   display: flex;
@@ -408,6 +407,7 @@ background-color: #9DF8FA;
   font-family: 'Indie Flower', cursive;  
   font-size: xx-large;
   color: #9DF8FA;
+  margin-top: 1vh;
 }
 
 
@@ -648,6 +648,7 @@ background-position: 100%;
   display: flex;
   flex-direction: row;
 margin-right: -.18vw;
+border-bottom: solid 2px#3A444A;
 }
 
 #homeNavSpace:hover{
@@ -662,6 +663,7 @@ margin-right: -.18vw;
   flex-direction: row;
   margin-top: 5vh;
   margin-right: -.18vw;
+  border-bottom: solid 2px#3A444A;
 }
 
 #goalNavSpace:hover{
@@ -677,6 +679,7 @@ margin-right: -.18vw;
   flex-direction: row;
   margin-top: 5vh;
   margin-right: -.18vw;
+  border-bottom: solid 2px#3A444A;
 }
 
 #bookNavSpace:hover{
@@ -692,6 +695,7 @@ margin-right: -.18vw;
   flex-direction: row;
   margin-top: 5vh;
   margin-right: -.18vw;
+  border-bottom: solid 2px#3A444A;
 }
 
 #affirmationNavSpace:hover{
@@ -762,4 +766,66 @@ margin-right: -.18vw;
   z-index: 5;
   position: fixed;
   display: visible;
+}
+
+#usernameSpot{
+  margin-top: 4vh;
+  color: #5C4E17;
+  font-family: 'Indie Flower', cursive;  
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 1vw;
+}
+
+#appointmentButton{
+  margin-top: 35.5vh;
+  margin-left: 6.5vw;
+  width: 10vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  border-radius: 13px;
+  background-color: white;
+  color: #0D4354;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: large;
+  font-weight: bolder;
+  justify-content: center;
+  border: solid 2px #0D4354;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+#uploadFile{
+  border: 2px solid #0D4354;
+  width: 40vw;
+  margin: 0 auto;
+  margin-top: 5vh;
+  margin-left: 9.8vw;
+  height: 4vh;
+  font-family: 'Chelsea Market', cursive;
+  font-size: larger;
+  color: #0D4354;
+  background-color: #9DF8FA;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#uploadFileTwo{
+  border: 2px solid #0D4354;
+width: 40vw;
+margin: 0 auto;
+margin-top: 5vh;
+margin-left: 9.8vw;
+height: 4vh;
+font-family: 'Chelsea Market', cursive;
+font-size: larger;
+color: #0D4354;
+background-color: #9DF8FA;
+text-align: center;
+align-content: center;
+justify-content: center;
 }

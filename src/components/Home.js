@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import Splash from './Splash';
-import firebase from 'firebase';
+
 
 
 
@@ -61,7 +61,8 @@ export default class Home extends React.Component{
           <div id='logoutDash'></div><div id='logOutDashIcon'></div>
         </div>
         <div id='profilePic'></div>
-
+      <div id='usernameSpot'>Username</div>
+      <div id='appointmentButton'>next <br/>appointment</div>
      </div>
     </div>
     </React.Fragment>
