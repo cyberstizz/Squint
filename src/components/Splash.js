@@ -1,7 +1,7 @@
+import Auth from './Auth'
 import React, { useState } from 'react';
 import '../App.css';
 import Modal from 'react-modal';
-import firebase from 'firebase/app';
 
 
 export default function Splash(){
@@ -9,9 +9,8 @@ export default function Splash(){
 
 const firebaseConfig = process.env.REACT_APP_Squint_API_KEY;
 
-if (firebase.apps.length === 0) {
-  firebase.initializeApp(firebaseConfig);
-}
+
+
 
 
 
