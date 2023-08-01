@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+![](./src/main/resources/squintreadmepic.jpg)
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#             **Squint Frontend**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## This is a React application
 
-### `npm test`
+### this project includes
+* React
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Synopsis
+this appliction is the front end of a applicaation that connects to a spring
+boot backend.It was first created in 2020 and completed in 2023. The application
+is a dashboard for a produc tivity and task management system that we call a "structure for success". Users can set their goals and created other relics of
+their personal journies with things like booklists and affirmations.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Goal Setting
+this application is centered around goal setting. since every action has some 
+motivation or end goal behind it, it is the core of the Squint application.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### whats the catch?
+users can not set a goal without an expeted time to complete it, as well
+as steps that will be taken to complete it in the users daily schedule.
+because this, users are forced to hold themselves accountable.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Code Review
+This code is written in React. And it is the old react using class based components.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### final thought
+Squint is designed to help anyone on their journey to achieving their aspiriations in life. the more people that I can help do that, the more successful this project is. further, the constant challenges that I have encountered during the execution of this project has been helpul to my coding journey in an immesurable way.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### for more projects by CyberStizz visit: [Charleslambjr.com](https://www.charleslambjr.com/)
